@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --text: #f8fafc;
-  --background: #1c1f2b;
-  --primary: #009fb8;
-  --secondary: #afb5c0;
-  --accent: #5d6cc0;
+  --text: #f8fafc; /* Light text color */
+  --background: #1c1f2b; /* Dark background color */
+  --primary: #009fb8; /* Primary accent color */
+  --secondary: #afb5c0; /* Secondary color for UI elements */
+  --accent: #5d6cc0; /* Accent color for highlights */
 }
 
+/* For using as tailwind classes. E.g font-primary, bg-text, text-secondary etc. */
 @theme inline {
   --color-background: var(--background);
   --color-text: var(--text);

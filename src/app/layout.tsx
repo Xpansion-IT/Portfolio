@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import SiteHeader from "@/components/navigation/header/site-header";
 
 const robotoFont = localFont({
   src: "../fonts/Roboto-VariableFont_wdth,wght.ttf",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoFont.className} antialiased`}>{children}</body>
+      <body className={`${robotoFont.className} antialiased bg-background`}>
+        <SiteHeader />
+        {children}
+      </body>
     </html>
   );
 }
