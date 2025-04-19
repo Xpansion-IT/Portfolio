@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --text: #f8fafc;
+  --background: #1c1f2b;
+  --primary: #009fb8;
+  --secondary: #afb5c0;
+  --accent: #5d6cc0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-text: var(--text);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --font-primary: var(--font-roboto);
+}
