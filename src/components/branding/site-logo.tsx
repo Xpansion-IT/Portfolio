@@ -7,7 +7,7 @@ export default function SiteLogo({ className }: { className?: string }) {
       href={"/"}
       className={`${className} font-bold text-text text-xl flex gap-2 items-center tracking-wide`}
     >
-      <GoStack className="text-primary text-3xl" /> XpansionIT
+      <GoStack className="text-accent text-3xl" /> XpansionIT
     </Link>
   );
 }

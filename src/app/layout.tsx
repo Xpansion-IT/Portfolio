@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${robotoFont.className} antialiased bg-background`}>
         <SiteHeader />
-        {children}
+        <div className="mt-16">{children}</div>
       </body>
     </html>
   );
