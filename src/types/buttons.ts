@@ -5,4 +5,5 @@ export interface BaseButtonProps
   children: ReactNode;
   className?: string;
   variant?: "default" | "outline";
+  size?: "default" | "sm" | "lg";
 }

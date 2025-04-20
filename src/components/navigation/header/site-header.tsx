@@ -5,7 +5,7 @@ import Link from "next/link";
 import NavLink from "./nav-link";
 import NavDesktop from "./nav-desktop";
 import NavMobile from "./nav-mobile";
-import ButtonSecondary from "@/components/ui/button-secondary";
+import ButtonSecondary from "@/components/ui/button-accent";
 
 export default function SiteHeader() {
   return (
