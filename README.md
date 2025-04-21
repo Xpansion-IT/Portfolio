@@ -7,8 +7,8 @@ This project uses **Next.js**, **TypeScript**, **TailwindCSS**, **next-intl** fo
 ### 1. Clone and Install
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/Xpansion-IT/Portfolio.git
+cd Portfolio
 pnpm install
 ```
 
