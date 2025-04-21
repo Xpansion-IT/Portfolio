@@ -1,22 +1,22 @@
 export const headerLinks = [
   {
     name: "services",
-    href: "#",
+    href: "/#services",
   },
   {
     name: "about",
-    href: "#",
+    href: "/#about",
   },
   {
     name: "portfolio",
-    href: "#",
+    href: "/#portfolio",
   },
   {
     name: "testimonials",
-    href: "#",
+    href: "/#testimonials",
   },
   {
     name: "contact",
-    href: "#",
+    href: "/#contact",
   },
 ];

@@ -12,6 +12,26 @@
     "heroTitle": "Transforming Ideas Into <span>Powerful</span> Software",
     "heroSubTitle": "We build custom software solutions that help businesses streamline operations, enhance customer experiences, and drive growth.",
     "heroGetStartedButton": "Get Started",
-    "heroOurServicesButton": "Our Services"
+    "heroOurServicesButton": "Our Services",
+
+    "servicesTitle": "Our <span>Services</span>",
+    "servicesSubTitle": "We build custom software solutions that help businesses streamline operations, enhance customer experiences, and drive growth.",
+
+    "serviceOneTitle": "Software Development",
+    "serviceOneFeatureOne": "Custom software development (web, mobile, desktop)",
+    "serviceOneFeatureTwo": "Software maintenance and support",
+    "serviceOneFeatureThree": "Software testing and quality assurance",
+    "serviceOneFeatureFour": "Software consulting and auditing",
+
+    "serviceTwoTitle": "IT Consulting",
+    "serviceTwoFeatureOne": "IT strategy and planning",
+    "serviceTwoFeatureTwo": "IT infrastructure design and implementation",
+    "serviceTwoFeatureThree": "IT service management",
+    "serviceTwoFeatureFour": "IT security and compliance",
+
+    "serviceThreeTitle": "AI and Machine Learning",
+    "serviceThreeFeatureOne": "Custom AI and machine learning solutions",
+    "serviceThreeFeatureTwo": "AI and machine learning consulting",
+    "serviceThreeFeatureThree": "AI and machine learning training and support"
   }
 }

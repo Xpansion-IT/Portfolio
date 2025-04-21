@@ -23,6 +23,7 @@
 /* SCROLL BAR STYLE */
 body {
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

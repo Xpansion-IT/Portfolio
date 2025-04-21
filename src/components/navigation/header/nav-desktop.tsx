@@ -1,6 +1,6 @@
 import { TFunction } from "@/types/i18n";
 import { headerLinks } from "./header-links";
-import { Link } from "@/i18n/navigation";
+import Link from "next/link";
 
 export default function NavDesktop({ t }: { t: TFunction }) {
   return (

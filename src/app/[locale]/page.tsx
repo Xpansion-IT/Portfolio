@@ -1,5 +1,5 @@
-import HeroSection from "@/components/home/hero-section/hero-section";
-import ServicesSection from "@/components/home/services-section/services-section";
+import HeroSection from "@/app/[locale]/_components/hero-section";
+import ServicesSection from "@/app/[locale]/_components/services-section";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 

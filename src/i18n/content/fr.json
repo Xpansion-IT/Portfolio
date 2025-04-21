@@ -12,6 +12,26 @@
     "heroTitle": "Transformer vos id es en <span>logiciels puissants</span>",
     "heroSubTitle": "Nous concevons des solutions logicielles sur mesure qui aident les entreprises  am liorer leurs processus, enrichir l'exp rience client et booster leur croissance.",
     "heroGetStartedButton": "Commencer",
-    "heroOurServicesButton": "Nos services"
+    "heroOurServicesButton": "Nos services",
+
+    "servicesTitle": "Nos <span>Services</span>",
+    "servicesSubTitle": "Nous concevons des solutions logicielles sur mesure qui aident les entreprises à rationaliser leurs opérations, enrichir l'expérience client et stimuler la croissance.",
+
+    "serviceOneTitle": "D veloppement de logiciels",
+    "serviceOneFeatureOne": "D veloppement de logiciels sur mesure (web, mobile, ordinateur de bureau)",
+    "serviceOneFeatureTwo": "Maintenance et support logiciel",
+    "serviceOneFeatureThree": "Test et assurance qualité logicielle",
+    "serviceOneFeatureFour": "Conseil et audit logiciel",
+
+    "serviceTwoTitle": "Conseil en informatique",
+    "serviceTwoFeatureOne": "Planification et strat gie TI",
+    "serviceTwoFeatureTwo": "Conception et mise en place d'infrastructures TI",
+    "serviceTwoFeatureThree": "Gestion des services TI",
+    "serviceTwoFeatureFour": "S curit  et conformit  TI",
+
+    "serviceThreeTitle": "Intelligence artificielle et Apprentissage automatique",
+    "serviceThreeFeatureOne": "Solutions d'apprentissage automatique et d'intelligence artificielle sur mesure",
+    "serviceThreeFeatureTwo": "Conseil en apprentissage automatique et intelligence artificielle",
+    "serviceThreeFeatureThree": "Formation et support en apprentissage automatique et intelligence artificielle"
   }
 }

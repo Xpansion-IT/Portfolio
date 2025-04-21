@@ -1,5 +1,5 @@
 import ButtonPrimary from "@/components/ui/button-primary";
-import ContentWrapper from "../../wrappers/content-wrapper";
+import ContentWrapper from "../../../components/wrappers/content-wrapper";
 import ButtonSecondary from "@/components/ui/button-secondary";
 import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";

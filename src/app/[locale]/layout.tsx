@@ -30,7 +30,7 @@ export default async function LocaleLayout({
       <body className={`${robotoFont.className} antialiased bg-background`}>
         <NextIntlClientProvider>
           <SiteHeader />
-          <div className="mt-16">{children}</div>
+          <div className="mt-16 h-[3000px]">{children}</div>
         </NextIntlClientProvider>
       </body>
     </html>
