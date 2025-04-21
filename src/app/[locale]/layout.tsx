@@ -27,11 +27,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${robotoFont.className} antialiased bg-background`}>
+      <body
+        className={`${robotoFont.className} antialiased bg-background-dark`}
+      >
         <NextIntlClientProvider>
           <SiteHeader />
           <div className="mt-16 h-[3000px]">{children}</div>
         </NextIntlClientProvider>
+        <script
+          defer
+          src="https://unpkg.com/tailwindcss-intersect@2.x.x/dist/observer.min.js"
+        ></script>
       </body>
     </html>
   );

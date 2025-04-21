@@ -1,24 +1,24 @@
 import ContentWrapper from "@/components/wrappers/content-wrapper";
 import { TFunction } from "@/types/i18n";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { services } from "./services";
+
 export default function ServicesSection({ t }: { t: TFunction }) {
   return (
     <ContentWrapper className="bg-text not-only:py-16 md:py-28">
       <div className="space-y-3 scroll-mt-32" id="services">
-        <h1 className="text-3xl font-bold tracking-tighter text-center text-background lg:text-4xl xl:text-5xl/none">
+        <h1 className="text-3xl font-bold tracking-tighter text-center text-background lg:text-4xl xl:text-5xl/none intersect:animate-fade-up intersect-once">
           {t.rich("servicesTitle", {
             span: (span) => <span className="text-primary">{span}</span>,
           })}
         </h1>
-        <p className="max-w-[600px] text-center mx-auto text-background/70 text-base lg:text-lg">
+        <p className="max-w-[600px] text-center mx-auto text-background/70 text-base lg:text-lg intersect:animate-fade-up intersect:animate-delay-50 intersect-once">
           {t("servicesSubTitle")}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 intersect:animate-fade-up intersect:animate-delay-100 intersect-once">
           {services.map((service, index) => (
             <div
-              className="bg-text shadow-md border border-secondary/50 p-5 rounded-lg space-y-3"
+              className={`bg-text shadow-md border border-secondary/50 p-5 rounded-lg space-y-3`}
               key={index}
             >
               <div className="aspect-square p-1 rounded-md flex justify-center items-center text-4xl w-fit bg-primary text-text">
@@ -45,3 +45,37 @@ export default function ServicesSection({ t }: { t: TFunction }) {
     </ContentWrapper>
   );
 }
+
+import { AiFillCustomerService, AiFillCode, AiFillRobot } from "react-icons/ai";
+
+const services = [
+  {
+    icon: <AiFillCustomerService />,
+    titleKey: "serviceOneTitle",
+    pointKeys: [
+      "serviceOneFeatureOne",
+      "serviceOneFeatureTwo",
+      "serviceOneFeatureThree",
+      "serviceOneFeatureFour",
+    ],
+  },
+  {
+    icon: <AiFillCode />,
+    titleKey: "serviceTwoTitle",
+    pointKeys: [
+      "serviceTwoFeatureOne",
+      "serviceTwoFeatureTwo",
+      "serviceTwoFeatureThree",
+      "serviceTwoFeatureFour",
+    ],
+  },
+  {
+    icon: <AiFillRobot />,
+    titleKey: "serviceThreeTitle",
+    pointKeys: [
+      "serviceThreeFeatureOne",
+      "serviceThreeFeatureTwo",
+      "serviceThreeFeatureThree",
+    ],
+  },
+];

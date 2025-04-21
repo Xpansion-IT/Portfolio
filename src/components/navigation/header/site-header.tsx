@@ -1,5 +1,5 @@
 import SiteLogo from "@/components/branding/site-logo";
-import ButtonPrimary from "@/components/ui/button-primary";
+import ButtonPrimary from "@/components/ui/buttons/button-primary";
 import ContentWrapper from "@/components/wrappers/content-wrapper";
 import NavDesktop from "./nav-desktop";
 import NavMobile from "./nav-mobile";
@@ -12,7 +12,7 @@ export default async function SiteHeader() {
   const t = await getTranslations("SiteHeader");
 
   return (
-    <ContentWrapper className="fixed top-0 left-0 z-[500] w-full h-16 border-b border-secondary/10 bg-background/90 backdrop:blur-2xl px-2 md:px-0">
+    <ContentWrapper className="fixed top-0 left-0 z-[500] w-full h-16 border-b border-secondary/10 bg-background/90 backdrop:blur-2xl px-2 md:px-0 animate-fade-down">
       <nav className="flex h-full items-center justify-between gap-4">
         {/* Logo */}
         <SiteLogo />
