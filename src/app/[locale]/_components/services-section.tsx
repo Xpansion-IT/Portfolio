@@ -1,6 +1,7 @@
 import ContentWrapper from "@/components/wrappers/content-wrapper";
 import { TFunction } from "@/types/i18n";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import { AiFillCustomerService, AiFillCode, AiFillRobot } from "react-icons/ai";
 
 export default function ServicesSection({ t }: { t: TFunction }) {
   return (
@@ -45,8 +46,6 @@ export default function ServicesSection({ t }: { t: TFunction }) {
     </ContentWrapper>
   );
 }
-
-import { AiFillCustomerService, AiFillCode, AiFillRobot } from "react-icons/ai";
 
 const services = [
   {
