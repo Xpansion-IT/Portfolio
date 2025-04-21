@@ -1,0 +1,17 @@
+{
+  "SiteHeader": {
+    "services": "Services",
+    "about": "À propos",
+    "portfolio": "Portefeuille",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "getStartedButton": "Commencer"
+  },
+  "HomePage": {
+    "heroBadge": "Solutions logicielles innovantes",
+    "heroTitle": "Transformer vos id es en <span>logiciels puissants</span>",
+    "heroSubTitle": "Nous concevons des solutions logicielles sur mesure qui aident les entreprises  am liorer leurs processus, enrichir l'exp rience client et booster leur croissance.",
+    "heroGetStartedButton": "Commencer",
+    "heroOurServicesButton": "Nos services"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "SiteHeader": {
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getStartedButton": "Get Started"
+  },
+  "HomePage": {
+    "heroBadge": "Innovative Software Solutions",
+    "heroTitle": "Transforming Ideas Into <span>Powerful</span> Software",
+    "heroSubTitle": "We build custom software solutions that help businesses streamline operations, enhance customer experiences, and drive growth.",
+    "heroGetStartedButton": "Get Started",
+    "heroOurServicesButton": "Our Services"
+  }
+}
