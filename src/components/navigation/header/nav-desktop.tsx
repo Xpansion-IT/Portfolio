@@ -1,14 +1,19 @@
 import { TFunction } from "@/types/i18n";
-import NavLink from "./nav-link";
+import { headerLinks } from "./header-links";
+import { Link } from "@/i18n/navigation";
 
 export default function NavDesktop({ t }: { t: TFunction }) {
   return (
-    <div className="gap-5 hidden md:flex">
-      <NavLink href="#">{t("services")}</NavLink>
-      <NavLink href="#">{t("about")}</NavLink>
-      <NavLink href="#">{t("portfolio")}</NavLink>
-      <NavLink href="#">{t("testimonials")}</NavLink>
-      <NavLink href="#">{t("contact")}</NavLink>
+    <div className={`gap-5 flex items-center`}>
+      {headerLinks.map((link) => (
+        <Link
+          key={link.name}
+          href={link.href}
+          className="transition text-text/80 font-medium hover:text-text/100 text-sm tracking-wide"
+        >
+          {t(link.name)}
+        </Link>
+      ))}
     </div>
   );
 }

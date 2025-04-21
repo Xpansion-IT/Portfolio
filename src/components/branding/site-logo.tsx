@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { GoStack } from "react-icons/go";
 
 export default function SiteLogo({ className }: { className?: string }) {

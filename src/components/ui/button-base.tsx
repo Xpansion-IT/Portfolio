@@ -1,7 +1,7 @@
 import { BaseButtonProps } from "@/types/buttons";
 
 const baseClasses =
-  "rounded-md font-medium tracking-wide flex items-center justify-center gap-2 cursor-pointer disabled:pointer-events-none active:scale-[0.98]";
+  "rounded-md font-medium tracking-wide flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer disabled:pointer-events-none active:scale-[0.98]";
 
 const defaultSize = "h-10 px-4 py-2 text-sm";
 const smSize = "h-9 px-3 py-2 text-xs";

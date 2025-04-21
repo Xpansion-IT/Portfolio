@@ -11,7 +11,7 @@ const robotoFont = localFont({
   variable: "--font-roboto",
 });
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: Readonly<{
